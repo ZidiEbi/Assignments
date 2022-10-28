@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    background: #000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    color: grey;
+    align-items: center;
+    font-size: larger;
+}
+nav>a{
+    color: grey;
+}
+.nav>a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+}
+.logo{
+    margin-left: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.logo:hover{
+    color: aquamarine;
+}
+
+.About{
+    padding: 20px;
+}
+.Registration{
+    padding: 20px;
+}
+.Login{
+    padding: 20px;
+}
+.Contact{
+    margin-right: 5rem;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: seagreen;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.Contact:hover{
+    color: white;
+    border: 3px solid seagreen;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    font-weight: 700;
+
+}
+
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 128, 96, 0.075);
+}
+
+
+
+.whole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    height: 60vh;
+    /* width: 58%; */
+    overflow: hidden;
+}
+
+
+.left-box{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 2rem;
+    border:  inset;
+    border-radius: 10px;
+
+
+}
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: black;
+}
+
+.header_right-box{
+    margin-top: 12rem;
+    margin-left: 35%;
+    margin-bottom: -15rem;
+}
+
+.form-body{
+    border: 5px solid rgba(0, 0, 0, 0.349);
+    width: 40rem;
+    height: 31rem;
+    margin-top: 18rem;
+    margin-left: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+
+.form-left{
+    margin: 40px 60px;
+}
+
+#name,
+#email,
+#message{
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 5px;
+    
+}
+
+form{
+    line-height: 3.5;
+}
+
+.contact-us{
+    width: 20rem;
+    height: 2.5rem;
+    background: seagreen;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid rgba(0, 128, 96, 0.075);
+    font-size: 18px;
+}
+.contact-us:hover{
+    cursor: pointer;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 18rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+}
+
+.contact-mail{
+    color: rgb(252, 125, 41);
+    font-weight: 900;
+}
+
+.contact-base{
+    color: rgb(252, 125, 41);
+    font-weight: 900;
+}
+
+.contact-social>a>img{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-social{
+    display: flex;
+    justify-content: space-around;
+    width: 8rem;
+    height: 6rem;
+}
+
+.contact-social>a>.icons{
+    border-radius: 20px;
+}
+
+
